@@ -1,0 +1,5 @@
+# Prevent all robots from crawling entire site
+# Note: GitHub allows crawlers on master branches only
+# Note: GitHub Pages are public even if repos are private
+User-agent: *
+Disallow: /

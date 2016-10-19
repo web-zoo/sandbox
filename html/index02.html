@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hello World!</p>
+
+<button type="button" onclick="myFunction()">Set background color</button>
+
+<script>
+function myFunction() {
+    document.body.style.backgroundColor = "red";
+    document.getElementsByTagName("H1")[0].style.color = "blue";
+    
+    var x = document.getElementsByTagName("P");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "blue";
+    }
+}
+</script>
+
+</body>
+</html>

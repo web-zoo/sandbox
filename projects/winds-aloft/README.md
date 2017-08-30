@@ -180,6 +180,8 @@ There is a RAOB software and it has potentially useful info about where to get d
 
 
 
-Etc:
+## Etc
+
+https://www.weather.gov/media/publications/front/05nov-front.pdf
 
 http://maps.avnwx.com/help/winds.html

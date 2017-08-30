@@ -58,11 +58,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
           }
         }
-        //console.log()
         document.getElementsByTagName("body")[0].appendChild(table);
 
-
-                       
+        // TODO clean up above parsing of file to use field width instead of whitespace!
+                      
       });
     }
   )

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
  let url;
  // forecast.weather.gov works with cors!
 
- url = "http://forecast.weather.gov/product.php?site=NWS&issuedby=US1&product=FD1&format=CI&version=1&glossary=0"
+ url = "https://forecast.weather.gov/product.php?site=NWS&issuedby=US1&product=FD1&format=CI&version=1&glossary=0"
 
  fetch(url, {
     method: 'GET',
